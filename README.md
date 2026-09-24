@@ -85,3 +85,44 @@ General Print Tips for Kobra S1 Max
 
 4. Cooling: Part cooling fans should generally be OFF to prevent layer splitting.
 Nozzle: exclusively use Hardened Steel nozzles; brass will wear out in <500g of printing.
+
+
+
+------------------------------------------------------------------------------
+Added Inslogic PA6-CF for Kobra S1 Max
+# Inslogic PA6-CF Print Profile & Guidelines
+
+**Material:** Carbon Fiber Reinforced Nylon 6 (20% CF).
+**Properties:** Offers extreme stiffness, high tensile strength, and exceptional heat resistance (up to 209°C HDT).
+**Warning:** Highly hygroscopic—requires thorough drying before printing.
+
+---
+
+## 🔥 Drying Instructions
+
+* **Drying Temp & Time:** 90°C (194°F) for 12 Hours, or 110°C (230°F) for 4 Hours.
+* **Workflow Note:** The Anycubic Ace 2 Pro caps at 65°C, which cannot perform the initial deep dry. Dehydrate the spool in a dedicated oven or high-temp dryer first, then feed from the Ace 2 Pro to maintain dryness while printing.
+
+## ♨️ Annealing (Recommended)
+
+Annealing completes crystallization to unlock the full 209°C heat resistance and relieve internal print stress.
+* **Option 1:** 90°C (194°F) for 12 Hours
+* **Option 2:** 110°C (230°F) for 6 Hours
+* **Option 3:** 130°C (266°F) for 3 Hours
+* **Cooling Note:** Let the part cool down slowly inside the oven to room temperature to prevent warping from thermal shock.
+
+## 💧 Moisture Conditioning
+
+* **Required:** Yes, after annealing.
+* **Method:** Allow the annealed part to sit in ambient room humidity for several days, or place it in a warm water bath for several hours to restore flexibility and impact resistance to the nylon matrix.
+
+---
+
+## ⚙️ General Print Tips for Kobra S1 Max
+
+1. **Bed Temp:** Set bed temperature to **50–70°C** (65°C recommended) on the Textured PEI Plate.
+2. **Adhesion:** Apply a thin, even coat of PVA glue stick or Magigoo PA to the textured PEI sheet to ensure adhesion and act as a release layer when cool.
+3. **Chamber & Enclosure:** Set chamber temperature to **60–65°C** with the internal filtration fan low (5–10%) to prevent rapid cooling and corner lifting.
+4. **Cooling:** Run part cooling at **30%** (with 0% on the first 3 layers). Keep the auxiliary fan OFF (0%).
+5. **Nozzle:** Exclusively use a **Hardened Steel nozzle** (0.4 mm or 0.6 mm) printed at **270–290°C**; brass will wear out in less than a single spool.
+6. **Retraction Overrides:** Use 0.8 mm retraction length, 45 mm/s speed, 2.0 mm wipe distance, and 0.4 mm Z-hop to eliminate stringing and nozzle strikes.
